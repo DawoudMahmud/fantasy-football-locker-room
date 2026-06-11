@@ -1,8 +1,8 @@
-# Fantasy GM Draft Dashboard
+# Fantasy GM Command Center
 
-A draft-first fantasy football dashboard for redraft half-PPR leagues. The first iteration focuses on a live draft war room with strategy-aware recommendations, transparent scoring, and a future-ready Sleeper sync layer.
+A fantasy football GM command center for draft, waiver, trade, matchup, and roster strategy. The first iteration focuses on a live draft war room because it is the offseason, but the long-term product is meant to cover the full fantasy season.
 
-![Fantasy GM Draft Dashboard](docs/draft-dashboard-screenshot.png)
+![Fantasy GM Command Center](docs/draft-dashboard-screenshot.png)
 
 ## What It Does
 
@@ -15,7 +15,7 @@ A draft-first fantasy football dashboard for redraft half-PPR leagues. The first
 
 ## Current Status
 
-This is a v0.1 prototype. It is intentionally not finished yet, but it is a working first iteration with a clear product direction.
+This is a v0.1 prototype. It is intentionally not finished yet, but it is a working first iteration with a clear product direction: start with draft intelligence, then expand into an all-season fantasy GM toolkit.
 
 The app currently uses realistic mock player data for the recommendation model. Sleeper draft syncing is wired at the service/UI level, but production-quality player ID mapping, real projection imports, authentication-adjacent workflows, and deeper model validation still need work.
 
@@ -54,7 +54,11 @@ npm run build
 - Add historical draft tendencies for each manager.
 - Add better survival probability modeling by draft slot, ADP, tier breaks, and roster construction.
 - Add queue/watchlist behavior for players the model says to wait on.
-- Expand beyond draft into start/sit, waivers, trades, and matchup previews.
+- Add start/sit recommendations for weekly lineup decisions.
+- Add waiver suggestions, including one-week-ahead bye planning.
+- Add trade analyzer and team weakness scanning.
+- Add future trade partner suggestions based on league-wide roster construction.
+- Add weekly matchup previews and win-condition breakdowns.
 
 ## Notes
 
