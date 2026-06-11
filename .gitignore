@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.DS_Store
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+
+# Local Codex workspace folders
+work/
+outputs/
+
+# Environment files
+.env
+.env.*
+!.env.example
