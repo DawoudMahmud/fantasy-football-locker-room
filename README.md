@@ -1,8 +1,8 @@
-# Fantasy GM Command Center
+# Fantasy Football GM Command Center
 
-A fantasy football GM command center for draft, waiver, trade, matchup, and roster strategy. The first iteration focuses on a live draft war room because it is the offseason, but the long-term product is meant to cover the full fantasy season.
+A fantasy football GM command center for draft, waiver, trade, matchup, and roster strategy. The first iteration focuses on a live draft war room because it is the offseason, but the long-term product is meant to cover the full fantasy football season.
 
-![Fantasy GM Command Center](docs/draft-dashboard-screenshot.png)
+![Fantasy Football GM Command Center](docs/draft-dashboard-screenshot.png)
 
 ## What It Does
 
