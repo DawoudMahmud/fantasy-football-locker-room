@@ -115,7 +115,7 @@ export function App() {
     <main className="appShell">
       <section className="topbar">
         <div>
-          <p className="eyebrow">Fantasy GM Draft Dashboard</p>
+          <p className="eyebrow">Fantasy Football Locker Room</p>
           <h1>Draft War Room</h1>
         </div>
         <div className={`syncPill ${syncState}`}>
